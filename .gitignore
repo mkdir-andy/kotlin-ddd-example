@@ -1,0 +1,83 @@
+# Gradle files
+.gradle/
+build/
+
+# Ignore root project specific files
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# Logs
+*.log
+**/logs/
+spring.log
+
+# Dependency directories
+**/node_modules/
+**/bower_components/
+
+# Compiled class files
+*.class
+
+# Compiled jar files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Maven-specific files (if using both Gradle and Maven)
+target/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Linux files
+*.swp
+*~
+
+# Bytecode, build artifacts, and libraries
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Spring Boot specific
+.env
+*.pid
+*.hprof
+
+# Test results
+**/test-results/
+**/surefire-reports/
+**/failsafe-reports/
+
+# Gradle cache and wrapper
+.gradle/
+build/
+
+# Local environment-specific configuration
+.envrc
+.env.local
+
+# Docker-related files
+docker-compose.override.yml
