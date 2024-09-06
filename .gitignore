@@ -71,10 +71,6 @@ ehthumbs.db
 **/surefire-reports/
 **/failsafe-reports/
 
-# Gradle cache and wrapper
-.gradle/
-build/
-
 # Local environment-specific configuration
 .envrc
 .env.local
