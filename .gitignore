@@ -77,3 +77,6 @@ ehthumbs.db
 
 # Docker-related files
 docker-compose.override.yml
+
+# Ubuntu
+.attach_pid*
