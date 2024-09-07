@@ -1,1 +1,1 @@
-# kotlin-ddd-skeleton
+# kotlin-ddd-example
